@@ -1,0 +1,6 @@
+{
+    "name": "Button",
+    "type": "invisible",
+    "description": "Control the process of shuffle cubes and emit event for changing color",  
+    "controller": "lib/button.so"
+}

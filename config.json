@@ -1,0 +1,142 @@
+{
+
+    "name": "Find and click the same target cube, and the color will change!",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons":[
+        {
+            "name": "shuffle",
+            "label": "Shuffle!",
+            "style": { "background": "white", "border-color": "black" }
+        }
+
+    ],
+    "agents": [    
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": -600, 
+                "y": 200,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": 0, 
+                "y": 200,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": 600, 
+                "y": 200,
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": -600, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": 0, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": 600, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": -600, 
+                "y": -200, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": 0, 
+                "y": -200, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cube.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": {
+                "x": 600, 
+                "y": -200, 
+                "theta": 0
+            }
+        }
+    ],
+    "invisibles":[
+        {
+            "definition": "defs/button.json"
+        }
+    ],
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -700, "y": -400 },
+                { "x": -700,  "y": 400 },
+                { "x": -680,  "y": 400 },
+                { "x": -680, "y": -400 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 700, "y": -400 },
+                { "x": 700,  "y": 400 },
+                { "x": 680,  "y": 400 },
+                { "x": 680, "y": -400 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -700, "y": 400 },
+                { "x": 700,  "y": 400 },
+                { "x": 700,  "y": 380 },
+                { "x": -700, "y": 380 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -700, "y": -400 },
+                { "x": 700,  "y": -400 },
+                { "x": 700,  "y": -380 },
+                { "x": -700, "y": -380 }
+            ]
+        }
+
+    ]
+
+}
