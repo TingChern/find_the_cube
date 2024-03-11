@@ -34,6 +34,8 @@ The project aims to create a virtual environment where users can interact with c
 
 4. Click on the cubes to interact with them, if you find the right one, the cube color will randomly change to another color, and the cube will be shuffled.
 5. You can also click on the  `Shuffle!` button if the cubes accidentally get stucked or if you just want to change to another color that make you happier.
+6. Check out the video! ↓  ↓  ↓ </br>
+[![Watch the video](https://img.youtube.com/vi/obGj_zfyUXc/default.jpg)](https://youtu.be/obGj_zfyUXc)
 
 ## Acknowledgments
 
